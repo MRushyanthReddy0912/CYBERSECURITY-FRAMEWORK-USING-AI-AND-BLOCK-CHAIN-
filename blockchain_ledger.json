@@ -1,0 +1,529 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1792949618.5160236,
+    "timestamp_formatted": "2026-10-25 23:03:38 UTC",
+    "threat_data": {
+      "violation_type": "GENESIS_ROOT_INIT",
+      "username": "SYSTEM_SECURITY_CORE",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "CyberGuard Sentinel",
+        "city": "Core Enclave",
+        "region": "Root",
+        "isp": "Cryptographic Root Anchor"
+      },
+      "details": "Root of Trust established. Proof-of-Work SHA-256 ledger initialized.",
+      "action_taken": "LEDGER_SEALED"
+    },
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": 22,
+    "current_hash": "00eeb672a63b66176a19beaff37529651fbccfa281c2707f759be4222c676520"
+  },
+  {
+    "index": 1,
+    "timestamp": 1792950014.8167794,
+    "timestamp_formatted": "2026-10-25 23:10:14 UTC",
+    "threat_data": {
+      "violation_type": "BULK_DATA_EXFILTRATION",
+      "username": "alice",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Unauthorized Bulk Data Exfiltration Attempt: 25 photos requested in a single batch. Strict security quota of 10 photos violated. Zero-trust lockout engaged.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "00eeb672a63b66176a19beaff37529651fbccfa281c2707f759be4222c676520",
+    "nonce": 141,
+    "current_hash": "00343819a889fd5d721c443002376c8033c35078b0efd108c5c6e6a5e9fcdcc3"
+  },
+  {
+    "index": 2,
+    "timestamp": 1792950014.8337784,
+    "timestamp_formatted": "2026-10-25 23:10:14 UTC",
+    "threat_data": {
+      "violation_type": "BRUTE_FORCE_LOGIN_ATTACK",
+      "username": "bob",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Exceeded 3 consecutive failed authentication attempts. Account locked.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "00343819a889fd5d721c443002376c8033c35078b0efd108c5c6e6a5e9fcdcc3",
+    "nonce": 545,
+    "current_hash": "007cc460acb99d2c419c3f9aafdf3802a0a17b9d3de2d6875e15797a532d686f"
+  },
+  {
+    "index": 3,
+    "timestamp": 1792950282.8828666,
+    "timestamp_formatted": "2026-10-25 23:14:42 UTC",
+    "threat_data": {
+      "violation_type": "BULK_DATA_EXFILTRATION",
+      "username": "alice",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Unauthorized Bulk Data Exfiltration Attempt: 25 photos requested in a single batch. Strict security quota of 10 photos violated. Zero-trust lockout engaged.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "007cc460acb99d2c419c3f9aafdf3802a0a17b9d3de2d6875e15797a532d686f",
+    "nonce": 78,
+    "current_hash": "006c705c7cd8f82f60c3f4d4b11bc620507533d28e54fd96cc03ad7ade1980f1"
+  },
+  {
+    "index": 4,
+    "timestamp": 1792950282.9049354,
+    "timestamp_formatted": "2026-10-25 23:14:42 UTC",
+    "threat_data": {
+      "violation_type": "BRUTE_FORCE_LOGIN_ATTACK",
+      "username": "bob",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Exceeded 3 consecutive failed authentication attempts. Account locked.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "006c705c7cd8f82f60c3f4d4b11bc620507533d28e54fd96cc03ad7ade1980f1",
+    "nonce": 471,
+    "current_hash": "0036ee7ac8531fc57e5c5d87db22720f4ead37e282d8dda72a81043d6506217e"
+  },
+  {
+    "index": 5,
+    "timestamp": 1792950322.7504225,
+    "timestamp_formatted": "2026-10-25 23:15:22 UTC",
+    "threat_data": {
+      "violation_type": "BULK_DATA_EXFILTRATION",
+      "username": "alice",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Unauthorized Bulk Data Exfiltration Attempt: 25 photos requested in a single batch. Strict security quota of 10 photos violated. Zero-trust lockout engaged.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "0036ee7ac8531fc57e5c5d87db22720f4ead37e282d8dda72a81043d6506217e",
+    "nonce": 307,
+    "current_hash": "00aae54ff7976ec31381cab1cb852590cca88b67c50cdda4863508ac6c335770"
+  },
+  {
+    "index": 6,
+    "timestamp": 1792950322.780405,
+    "timestamp_formatted": "2026-10-25 23:15:22 UTC",
+    "threat_data": {
+      "violation_type": "BRUTE_FORCE_LOGIN_ATTACK",
+      "username": "bob",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Exceeded 3 consecutive failed authentication attempts. Account locked.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "00aae54ff7976ec31381cab1cb852590cca88b67c50cdda4863508ac6c335770",
+    "nonce": 17,
+    "current_hash": "00f3f16f7fc0088a86b931bda709189310831c1a2261b7b86e01e790b4953ef8"
+  },
+  {
+    "index": 7,
+    "timestamp": 1792950338.6140468,
+    "timestamp_formatted": "2026-10-25 23:15:38 UTC",
+    "threat_data": {
+      "violation_type": "BULK_DATA_EXFILTRATION",
+      "username": "alice",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Unauthorized Bulk Data Exfiltration Attempt: 25 photos requested in a single batch. Strict security quota of 10 photos violated. Zero-trust lockout engaged.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "00f3f16f7fc0088a86b931bda709189310831c1a2261b7b86e01e790b4953ef8",
+    "nonce": 120,
+    "current_hash": "00b11070ac02ce5b207467a9b541bd5a436b7ccb05249de5820396c731ecf6de"
+  },
+  {
+    "index": 8,
+    "timestamp": 1792950338.6433914,
+    "timestamp_formatted": "2026-10-25 23:15:38 UTC",
+    "threat_data": {
+      "violation_type": "BRUTE_FORCE_LOGIN_ATTACK",
+      "username": "bob",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Exceeded 3 consecutive failed authentication attempts. Account locked.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "00b11070ac02ce5b207467a9b541bd5a436b7ccb05249de5820396c731ecf6de",
+    "nonce": 21,
+    "current_hash": "00a9891d6dc00d9e96f3b1121aa01040ef7891b87a8461f4db94001088fa4b74"
+  },
+  {
+    "index": 9,
+    "timestamp": 1792950406.7366438,
+    "timestamp_formatted": "2026-10-25 23:16:46 UTC",
+    "threat_data": {
+      "violation_type": "BULK_DATA_EXFILTRATION",
+      "username": "alice",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Unauthorized Bulk Data Exfiltration Attempt: 25 photos requested in a single batch. Strict security quota of 10 photos violated. Zero-trust lockout engaged.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "00a9891d6dc00d9e96f3b1121aa01040ef7891b87a8461f4db94001088fa4b74",
+    "nonce": 147,
+    "current_hash": "00689309f4d16dce3936e39c418888119d7e3560777b0f04812733b1b67b9081"
+  },
+  {
+    "index": 10,
+    "timestamp": 1792950406.758643,
+    "timestamp_formatted": "2026-10-25 23:16:46 UTC",
+    "threat_data": {
+      "violation_type": "BRUTE_FORCE_LOGIN_ATTACK",
+      "username": "bob",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Exceeded 3 consecutive failed authentication attempts. Account locked.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "00689309f4d16dce3936e39c418888119d7e3560777b0f04812733b1b67b9081",
+    "nonce": 623,
+    "current_hash": "00de274dc6c01eca18e7934223c2835284a302e03f39e0a75b426608353fd031"
+  },
+  {
+    "index": 11,
+    "timestamp": 1792950493.2902298,
+    "timestamp_formatted": "2026-10-25 23:18:13 UTC",
+    "threat_data": {
+      "violation_type": "BULK_DATA_EXFILTRATION",
+      "username": "alice",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Unauthorized Bulk Data Exfiltration Attempt: 25 photos requested in a single batch. Strict security quota of 10 photos violated. Zero-trust lockout engaged.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "00de274dc6c01eca18e7934223c2835284a302e03f39e0a75b426608353fd031",
+    "nonce": 179,
+    "current_hash": "004dd4f411f5a0a57154d60532ac8d2e5b6e1d91674eb3ee1ae1dc0ab671fca7"
+  },
+  {
+    "index": 12,
+    "timestamp": 1792950493.313748,
+    "timestamp_formatted": "2026-10-25 23:18:13 UTC",
+    "threat_data": {
+      "violation_type": "BRUTE_FORCE_LOGIN_ATTACK",
+      "username": "bob",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Exceeded 3 consecutive failed authentication attempts. Account locked.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "004dd4f411f5a0a57154d60532ac8d2e5b6e1d91674eb3ee1ae1dc0ab671fca7",
+    "nonce": 277,
+    "current_hash": "00c5031d5572931e540148ad02d371a945733162a49e72c183f0ba437e0fb225"
+  },
+  {
+    "index": 13,
+    "timestamp": 1792950610.950706,
+    "timestamp_formatted": "2026-10-25 23:20:10 UTC",
+    "threat_data": {
+      "violation_type": "BULK_DATA_EXFILTRATION",
+      "username": "alice",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Unauthorized Bulk Data Exfiltration Attempt: 12 photos requested in a single batch. Strict security quota of 10 photos violated. Zero-trust lockout engaged.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "00c5031d5572931e540148ad02d371a945733162a49e72c183f0ba437e0fb225",
+    "nonce": 344,
+    "current_hash": "00455344a73ef6ea9955269a217fd71dbd5ee2b81fd0b13f584c637ca0a04186"
+  },
+  {
+    "index": 14,
+    "timestamp": 1792950696.219609,
+    "timestamp_formatted": "2026-10-25 23:21:36 UTC",
+    "threat_data": {
+      "violation_type": "BRUTE_FORCE_LOGIN_ATTACK",
+      "username": "rushyanth",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Exceeded 3 consecutive failed authentication attempts. Account locked.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "00455344a73ef6ea9955269a217fd71dbd5ee2b81fd0b13f584c637ca0a04186",
+    "nonce": 464,
+    "current_hash": "00913395e1ca8097f32d9333749def01c58b35b9d5b155fd227d0411f3461d4b"
+  },
+  {
+    "index": 15,
+    "timestamp": 1792952565.8056169,
+    "timestamp_formatted": "2026-10-25 23:52:45 UTC",
+    "threat_data": {
+      "violation_type": "BULK_DATA_EXFILTRATION",
+      "username": "bob",
+      "ip_address": "122.177.246.209",
+      "geolocation": {
+        "country": "India",
+        "city": "Hyderabad",
+        "region": "Telangana",
+        "isp": "Bharti Airtel",
+        "ip": "122.177.246.209"
+      },
+      "details": "Unauthorized Bulk Data Exfiltration Attempt: 12 photos requested in a single batch. Strict security quota of 10 photos violated. Zero-trust lockout engaged.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "00913395e1ca8097f32d9333749def01c58b35b9d5b155fd227d0411f3461d4b",
+    "nonce": 50,
+    "current_hash": "00aeb661c0af93315fb6c53f22798863c6b21fbd2563ebf0c3eaff4933a48710"
+  },
+  {
+    "index": 16,
+    "timestamp": 1792953053.1894884,
+    "timestamp_formatted": "2026-10-26 00:00:53 UTC",
+    "threat_data": {
+      "violation_type": "BULK_DATA_EXFILTRATION",
+      "username": "Rushyanth",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Unauthorized Bulk Data Exfiltration Attempt: 100 photos requested in a single batch. Strict security quota of 10 photos violated. Zero-trust lockout engaged.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "00aeb661c0af93315fb6c53f22798863c6b21fbd2563ebf0c3eaff4933a48710",
+    "nonce": 259,
+    "current_hash": "00d20d1f0db3872357e8cf4abbf76831d3bdef6bac4de46c7f52dcbe1444e2ce"
+  },
+  {
+    "index": 17,
+    "timestamp": 1793002333.4298112,
+    "timestamp_formatted": "2026-10-26 13:42:13 UTC",
+    "threat_data": {
+      "violation_type": "BULK_DATA_EXFILTRATION",
+      "username": "Venkat",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Unauthorized Bulk Data Exfiltration Attempt: 12 photos requested in a single batch. Strict security quota of 10 photos violated. Zero-trust lockout engaged.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "00d20d1f0db3872357e8cf4abbf76831d3bdef6bac4de46c7f52dcbe1444e2ce",
+    "nonce": 459,
+    "current_hash": "0035d6462fffaa617e2ee0c16edbb4cbdcc00f6f4ac88940108c380a564e192b"
+  },
+  {
+    "index": 18,
+    "timestamp": 1793032970.9688764,
+    "timestamp_formatted": "2026-10-26 22:12:50 UTC",
+    "threat_data": {
+      "violation_type": "AI_PREDICTED_CYBER_ATTACK",
+      "username": "Rushyanth",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "AI threat detection flagged this request (downloads=12, failed_attempts=0, velocity=1).",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "0035d6462fffaa617e2ee0c16edbb4cbdcc00f6f4ac88940108c380a564e192b",
+    "nonce": 287,
+    "current_hash": "007b9a3131d41d96a917da7098d2f08d6a0e0cc094da1707951210ab4ffd5f77"
+  },
+  {
+    "index": 19,
+    "timestamp": 1793040514.4950857,
+    "timestamp_formatted": "2026-10-27 00:18:34 UTC",
+    "threat_data": {
+      "violation_type": "BULK_DATA_EXFILTRATION",
+      "username": "Rushyanth",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Unauthorized bulk server log record exfiltration attempt: 11 records requested in a single batch. Strict security quota of 10 records violated. Zero-trust lockout engaged.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "007b9a3131d41d96a917da7098d2f08d6a0e0cc094da1707951210ab4ffd5f77",
+    "nonce": 116,
+    "current_hash": "009af02039a75f1d43d57f2199f80f7715d26a9d9da48b847459c37bfdfed71a"
+  },
+  {
+    "index": 20,
+    "timestamp": 1793040749.7740426,
+    "timestamp_formatted": "2026-10-27 00:22:29 UTC",
+    "threat_data": {
+      "violation_type": "BRUTE_FORCE_LOGIN_ATTACK",
+      "username": "rushyanth",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Exceeded 3 consecutive failed authentication attempts. Account locked.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "009af02039a75f1d43d57f2199f80f7715d26a9d9da48b847459c37bfdfed71a",
+    "nonce": 244,
+    "current_hash": "007775e483235019f31f5958a439f77bb0675431f458df7159e1e99b91870a59"
+  },
+  {
+    "index": 21,
+    "timestamp": 1793040759.6475444,
+    "timestamp_formatted": "2026-10-27 00:22:39 UTC",
+    "threat_data": {
+      "violation_type": "HIGH_VELOCITY_SCRAPER_BOT",
+      "username": "Rushyanth",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Automated bot velocity exceeded: 9 requests in 2.0s.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "007775e483235019f31f5958a439f77bb0675431f458df7159e1e99b91870a59",
+    "nonce": 121,
+    "current_hash": "009f39fb56bbdff71adefd4fd0ed9ebf3856a782917b8dee7a660cc995c539d5"
+  },
+  {
+    "index": 22,
+    "timestamp": 1793040971.3212562,
+    "timestamp_formatted": "2026-10-27 00:26:11 UTC",
+    "threat_data": {
+      "violation_type": "BULK_DATA_EXFILTRATION",
+      "username": "admin",
+      "ip_address": "127.0.0.1",
+      "geolocation": {
+        "country": "Localhost / Internal Host",
+        "city": "Cyber Range Workstation",
+        "region": "Loopback Enclave",
+        "isp": "Local Loopback Adapter",
+        "ip": "127.0.0.1"
+      },
+      "details": "Unauthorized bulk server log record exfiltration attempt: 100 records requested in a single batch. Strict security quota of 10 records violated. Zero-trust lockout engaged.",
+      "action_taken": "ZERO_TRUST_SESSION_TERMINATION_AND_BLOCKLISTED",
+      "severity": "CRITICAL_SEV_1"
+    },
+    "previous_hash": "009f39fb56bbdff71adefd4fd0ed9ebf3856a782917b8dee7a660cc995c539d5",
+    "nonce": 395,
+    "current_hash": "00de6740f51944d34f660b5ee2823bd0930a41f2c3892b5fc3415769bd511d1b"
+  }
+]
